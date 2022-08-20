@@ -33,3 +33,4 @@ cd ..
 cd kerja
 ls
 portofolio.txt cv.txt
+
