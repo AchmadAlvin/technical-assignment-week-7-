@@ -1,0 +1,35 @@
+mkdir AchmadAlvin 
+cd AchmadAlvin 
+mkdir sekolah
+mkdir kerja
+cd sekolah
+touch ijazah.txt
+nano ijazah.txt
+   Perkenalkan namaku Achmad Alvin 
+   Aku berasal dari Kota Ponorogo
+   Salam Kenal :D
+(ctrl+X, Y, Enter)
+touch portofolio.txt
+nano portofolio.txt
+ Saya pernah bekerja pada beberapa perusahaan salah satu diantaranya ialah
+ - BRI
+(ctrl+X, Y, Enter)
+cd ..
+cd kerja
+touch cv.txt
+nano cv.txt
+Salam,
+Perkenalkan namaku Achmad Alvin, saya memiliki kegemaran
+-Melamun
+-Menyendiri
+-Baca Manga
+(ctrl+X, Y,Enter)
+cd ..
+cd sekolah
+mv portofolio.txt kerja
+ls
+ijazah.txt
+cd ..
+cd kerja
+ls
+portofolio.txt cv.txt
